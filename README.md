@@ -684,7 +684,7 @@
 - [Source code release reference](https://kubernetes.io/releases/)
 - [Upgrade a Kubernetes cluster](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#upgrading-control-plane-nodes)
 - [Network Policy example](https://kubernetes.io/docs/concepts/services-networking/network-policies/#networkpolicy-resource)
-- [Network policy selectors](https://kubernetes.io/docs/concepts/services-networking/network-policies/#behavior-of-to-and-from-selectors)i
+- [Network policy selectors](https://kubernetes.io/docs/concepts/services-networking/network-policies/#behavior-of-to-and-from-selectors)
 - [Create an ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/#the-ingress-resource)
 - [Add a default backend](https://kubernetes.io/docs/concepts/services-networking/ingress/#resource-backend)
 - [Disable SSL forcing, to allow ingress access in the env (some examples fail without it set to `false` by default)](https://github.com/kubernetes/ingress-nginx/blob/e9c297e74dd20601a7bec89b86d36e75d323c5ce/docs/user-guide/tls.md#server-side-https-enforcement-through-redirect)
@@ -729,3 +729,4 @@
 - [Add EmptyDir volume for immutability workaround](https://kubernetes.io/docs/concepts/storage/volumes/#emptydir-configuration-example)
 - [Write a Kubernetes audit policy](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/#audit-policy)
 - [Add the Audit policy to kube-apiserver and mount it in](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/#log-backend)
+- [Query data directly from etcdctl, like a secret](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/#verifying-that-data-is-encrypted)
